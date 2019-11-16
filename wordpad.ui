@@ -45,8 +45,8 @@
     <property name="title">
      <string>Edit</string>
     </property>
+    <addaction name="actionCopy"/>
     <addaction name="actionCut"/>
-    <addaction name="actionCut_2"/>
     <addaction name="actionPaste"/>
     <addaction name="separator"/>
     <addaction name="actionRedo"/>
@@ -87,8 +87,8 @@
    <addaction name="actionSave"/>
    <addaction name="actionSave_As"/>
    <addaction name="actionPrint"/>
+   <addaction name="actionCopy"/>
    <addaction name="actionCut"/>
-   <addaction name="actionCut_2"/>
    <addaction name="actionPaste"/>
    <addaction name="actionUndo"/>
    <addaction name="actionRedo"/>
@@ -154,18 +154,12 @@
   <action name="actionCut">
    <property name="icon">
     <iconset resource="resources.qrc">
-     <normaloff>:/images/Icons/copy.png</normaloff>:/images/Icons/copy.png</iconset>
-   </property>
-   <property name="text">
-    <string>Copy</string>
-   </property>
-  </action>
-  <action name="actionCut_2">
-   <property name="icon">
-    <iconset resource="resources.qrc">
      <normaloff>:/images/Icons/cut.png</normaloff>:/images/Icons/cut.png</iconset>
    </property>
    <property name="text">
+    <string>Cut</string>
+   </property>
+   <property name="toolTip">
     <string>Cut</string>
    </property>
   </action>
@@ -266,6 +260,15 @@
    </property>
    <property name="text">
     <string>About this</string>
+   </property>
+  </action>
+  <action name="actionCopy">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/Icons/copy.png</normaloff>:/images/Icons/copy.png</iconset>
+   </property>
+   <property name="text">
+    <string>Copy</string>
    </property>
   </action>
  </widget>

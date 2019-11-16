@@ -56,6 +56,10 @@ private slots:
 
     void on_actionAbout_This_triggered();
 
+    void on_actionLeft_triggered();
+
+    void on_actionBackground_color_triggered();
+
 private:
     Ui::WordPad *ui;
     QString file_path_;

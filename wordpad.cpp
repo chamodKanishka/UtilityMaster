@@ -118,13 +118,13 @@ void WordPad::on_actionPrint_triggered()
 //Text Cut Function
 void WordPad::on_actionCut_triggered()
 {
-        ui->textEdit->cut();
+    ui->textEdit->cut();
 }
 
 //Text Copy Function
 void WordPad::on_actionCopy_triggered()
 {
-        ui->textEdit->copy();
+    ui->textEdit->copy();
 }
 
 //Text Paste Function
@@ -166,13 +166,12 @@ void WordPad::on_actionFont_Color_triggered()
 }
 
 //Font BG Color Change Function
-void WordPad::on_actionBackground_Color_triggered()
+void WordPad::on_actionBackground_color_triggered()
 {
     QColor color = QColorDialog::getColor(Qt::white,this,"Choose Color");
       if(color.isValid()) {
           ui->textEdit->setTextBackgroundColor(color);
         }
-
 }
 
 //Text Center
@@ -190,10 +189,9 @@ void WordPad::on_actionRight_triggered()
 }
 
 //Text Left
-void WordPad::on_actionLEft_triggered()
+void WordPad::on_actionLeft_triggered()
 {
     ui->textEdit->setAlignment(Qt::AlignLeft);
-
 }
 
 //Text Underline
@@ -225,3 +223,4 @@ void WordPad::closeEvent(QCloseEvent *event)
       event->ignore();
   }
 }
+
