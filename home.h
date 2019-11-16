@@ -26,11 +26,14 @@ private slots:
 
     void on_calculator_clicked();
 
+    void on_wordpad_clicked();
+
 private:
     Ui::Home *ui;
     Notepad *notepad;
     Paint *paint();
     Calculator *calculator;
+    WordPad *wordpad;
 
 };
 

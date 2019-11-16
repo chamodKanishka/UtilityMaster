@@ -31,3 +31,9 @@ void Home::on_calculator_clicked()
     calculator = new Calculator(this);
     calculator->show();
 }
+
+void Home::on_wordpad_clicked()
+{
+    wordpad = new WordPad(this);
+    wordpad->show();
+}

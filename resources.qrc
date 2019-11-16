@@ -6,5 +6,46 @@
         <file>Icons/Open.bmp</file>
         <file>Icons/Paste.bmp</file>
         <file>Icons/Save.bmp</file>
+        <file>Icons/about.png</file>
+        <file>Icons/bg_home.png</file>
+        <file>Icons/bg_new.png</file>
+        <file>Icons/bg_os.jpg</file>
+        <file>Icons/bgcolor.png</file>
+        <file>Icons/cal_logo.png</file>
+        <file>Icons/center - Copy.png</file>
+        <file>Icons/center.png</file>
+        <file>Icons/center_n.png</file>
+        <file>Icons/color.png</file>
+        <file>Icons/copy.png</file>
+        <file>Icons/cut.png</file>
+        <file>Icons/DeleteSticky.bmp</file>
+        <file>Icons/favicon.ico</file>
+        <file>Icons/font.png</file>
+        <file>Icons/fun_tools.png</file>
+        <file>Icons/Highlight.bmp</file>
+        <file>Icons/left.png</file>
+        <file>Icons/left_n.png</file>
+        <file>Icons/logo.png</file>
+        <file>Icons/new.png</file>
+        <file>Icons/notepad.png</file>
+        <file>Icons/open.png</file>
+        <file>Icons/open_video.png</file>
+        <file>Icons/paste.png</file>
+        <file>Icons/pause_video.png</file>
+        <file>Icons/play_video.png</file>
+        <file>Icons/print.png</file>
+        <file>Icons/redo.png</file>
+        <file>Icons/right.png</file>
+        <file>Icons/right_n.png</file>
+        <file>Icons/save.png</file>
+        <file>Icons/saveas.png</file>
+        <file>Icons/splash_screen.png</file>
+        <file>Icons/Sticky.bmp</file>
+        <file>Icons/stop_video.png</file>
+        <file>Icons/texteditor_logo.png</file>
+        <file>Icons/Turtle.png</file>
+        <file>Icons/underline.png</file>
+        <file>Icons/undo.png</file>
+        <file>Icons/vide)_logo.png</file>
     </qresource>
 </RCC>
