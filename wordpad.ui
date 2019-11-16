@@ -46,8 +46,8 @@
     <property name="title">
      <string>Edit</string>
     </property>
-    <addaction name="actionCut"/>
     <addaction name="actionCut_2"/>
+    <addaction name="actionCut"/>
     <addaction name="actionPaste"/>
     <addaction name="separator"/>
     <addaction name="actionRedo"/>
