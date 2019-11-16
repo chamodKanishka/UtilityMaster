@@ -72,7 +72,7 @@ void WordPad::on_actionSave_triggered()
 {
     QFile file(file_path_);
      if(!file.open(QFile::WriteOnly | QFile::Text)) {
-         QMessageBox::warning(this,"..","File Not Open !!");
+         QMessageBox::warning(this,"..","File Not Save !!");
          return;
        }
      QTextStream out(&file);
@@ -210,10 +210,10 @@ void WordPad::on_actionUnderline_triggered()
 void WordPad::on_actionAbout_This_triggered()
 {
     QString about_text;
-      about_text  = "Developer : Akila Rathnayaka\n";
+      about_text  = "Developer : Chathuranga Nanayakkara\n";
       about_text += "Module   : C++ With QT\n";
       about_text += "University of Plymouth \n";
-      about_text += "(C)2018 Text Editor Plus \n";
+      about_text += "(C)2019 Wordpad Master \n";
 
       QMessageBox::about(this,"About Notepad",about_text);
 }
@@ -221,7 +221,7 @@ void WordPad::on_actionAbout_This_triggered()
 // User tried to close the app
 void WordPad::closeEvent(QCloseEvent *event)
 {
-  if(QMessageBox::question(this,"Confirm","Do you want to exit ?")==QMessageBox::No){
+  if(QMessageBox::question(this,"Confirm","Do you want to close this application ?")==QMessageBox::No){
       event->ignore();
   }
 }

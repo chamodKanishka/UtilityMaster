@@ -28,6 +28,7 @@ SOURCES += \
         calculator.cpp \
         main.cpp \
         home.cpp \
+        mediaplayer.cpp \
         notepad.cpp \
         paint.cpp \
         paintarea.cpp \
@@ -36,6 +37,7 @@ SOURCES += \
 HEADERS += \
         calculator.h \
         home.h \
+        mediaplayer.h \
         notepad.h \
         paint.h \
         paintarea.h \
@@ -44,6 +46,7 @@ HEADERS += \
 FORMS += \
         calculator.ui \
         home.ui \
+        mediaplayer.ui \
         notepad.ui \
         paint.ui \
         wordpad.ui

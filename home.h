@@ -6,6 +6,7 @@
 #include "paint.h"
 #include "wordpad.h"
 #include "calculator.h"
+#include "mediaplayer.h"
 
 namespace Ui {
 class Home;
@@ -28,12 +29,15 @@ private slots:
 
     void on_wordpad_clicked();
 
+    void on_mediaplayer_clicked();
+
 private:
     Ui::Home *ui;
     Notepad *notepad;
     Paint *paint();
     Calculator *calculator;
     WordPad *wordpad;
+    MediaPlayer *mediaplayer;
 
 };
 

@@ -37,3 +37,9 @@ void Home::on_wordpad_clicked()
     wordpad = new WordPad(this);
     wordpad->show();
 }
+
+void Home::on_mediaplayer_clicked()
+{
+    mediaplayer = new MediaPlayer(this);
+    mediaplayer->show();
+}
