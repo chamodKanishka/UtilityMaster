@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Home</class>
+ <widget class="QMainWindow" name="Home">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>772</width>
+    <height>541</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Home</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="notepad">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>230</y>
+      <width>231</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color:#4169E1;
+	border:1px solid gray;
+	padding: 5px ;
+	color: #ffffff;
+	border-radius: 19px;
+}
+
+QPushButtonPressed{
+	background-color:#A9A9A9;
+	border:1px solid gray;
+	padding: 5px ;
+}</string>
+    </property>
+    <property name="text">
+     <string>Notepad Master</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_txtedit_2">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>230</y>
+      <width>231</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color:#4169E1;
+	border:1px solid gray;
+	padding: 5px ;
+	color: #ffffff;
+	border-radius: 19px;
+}
+
+QPushButtonPressed{
+	background-color:#A9A9A9;
+	border:1px solid gray;
+	padding: 5px ;
+}</string>
+    </property>
+    <property name="text">
+     <string>Wordpad Master</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_txtedit_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>410</y>
+      <width>231</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color:#4169E1;
+	border:1px solid gray;
+	padding: 5px ;
+	color: #ffffff;
+	border-radius: 19px;
+}
+
+QPushButtonPressed{
+	background-color:#A9A9A9;
+	border:1px solid gray;
+	padding: 5px ;
+}</string>
+    </property>
+    <property name="text">
+     <string>Calculator Master</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_txtedit_4">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>410</y>
+      <width>231</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color:#4169E1;
+	border:1px solid gray;
+	padding: 5px ;
+	color: #ffffff;
+	border-radius: 19px;
+}
+
+QPushButtonPressed{
+	background-color:#A9A9A9;
+	border:1px solid gray;
+	padding: 5px ;
+}</string>
+    </property>
+    <property name="text">
+     <string>Paint Master</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_txtedit_5">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>410</y>
+      <width>281</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color:#4169E1;
+	border:1px solid gray;
+	padding: 5px ;
+	color: #ffffff;
+	border-radius: 19px;
+}
+
+QPushButtonPressed{
+	background-color:#A9A9A9;
+	border:1px solid gray;
+	padding: 5px ;
+}</string>
+    </property>
+    <property name="text">
+     <string>Media Player Master</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>130</y>
+      <width>91</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>:/img/img/texteditor_logo.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>300</y>
+      <width>111</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>:/img/img/cal_logo.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>300</y>
+      <width>111</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>:/img/img/vide)_logo.png</pixmap>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>772</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
