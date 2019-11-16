@@ -17,6 +17,14 @@ public:
 
 private:
     Ui::Calculator *ui;
+    QString currentFile = "";
+
+private slots:
+    void NumPressed();
+    void MathButtonPressed();
+    void EqualButtonPressed();
+    void ChangeNumberSign();
+    void ClearPressed();
 };
 
 #endif // CALCULATOR_H

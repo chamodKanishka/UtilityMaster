@@ -2,8 +2,10 @@
 #define HOME_H
 
 #include <QMainWindow>
-#include <QPrinter>
 #include "notepad.h"
+#include "paint.h"
+#include "wordpad.h"
+#include "calculator.h"
 
 namespace Ui {
 class Home;
@@ -20,9 +22,16 @@ public:
 private slots:
     void on_notepad_clicked();
 
+    void on_paint_clicked();
+
+    void on_calculator_clicked();
+
 private:
     Ui::Home *ui;
     Notepad *notepad;
+    Paint *paint();
+    Calculator *calculator;
+
 };
 
 #endif // HOME_H

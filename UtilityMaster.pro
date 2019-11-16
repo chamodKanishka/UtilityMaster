@@ -25,17 +25,28 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
+        calculator.cpp \
         main.cpp \
         home.cpp \
-        notepad.cpp
+        notepad.cpp \
+        paint.cpp \
+        paintarea.cpp \
+        wordpad.cpp
 
 HEADERS += \
+        calculator.h \
         home.h \
-        notepad.h
+        notepad.h \
+        paint.h \
+        paintarea.h \
+        wordpad.h
 
 FORMS += \
+        calculator.ui \
         home.ui \
-        notepad.ui
+        notepad.ui \
+        paint.ui \
+        wordpad.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -43,4 +54,9 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 RESOURCES += \
-    resources.qrc
+    resources.qrc \
+    resources.qrc \
+    wordpadres.qrc
+
+DISTFILES += \
+    UtilityMaster.pro.user

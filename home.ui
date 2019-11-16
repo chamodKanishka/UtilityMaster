@@ -47,7 +47,7 @@ QPushButtonPressed{
      <string>Notepad Master</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_txtedit_2">
+   <widget class="QPushButton" name="wordpad">
     <property name="geometry">
      <rect>
       <x>540</x>
@@ -80,7 +80,7 @@ QPushButtonPressed{
      <string>Wordpad Master</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_txtedit_3">
+   <widget class="QPushButton" name="calculator">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -113,7 +113,7 @@ QPushButtonPressed{
      <string>Calculator Master</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_txtedit_4">
+   <widget class="QPushButton" name="paint">
     <property name="geometry">
      <rect>
       <x>540</x>
@@ -146,7 +146,7 @@ QPushButtonPressed{
      <string>Paint Master</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_txtedit_5">
+   <widget class="QPushButton" name="mediaplayer">
     <property name="geometry">
      <rect>
       <x>250</x>

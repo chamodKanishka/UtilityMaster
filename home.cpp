@@ -7,6 +7,7 @@ Home::Home(QWidget *parent) :
     ui(new Ui::Home)
 {
     ui->setupUi(this);
+    setWindowTitle(tr("Utility Master"));
 }
 
 Home::~Home()
@@ -19,4 +20,14 @@ void Home::on_notepad_clicked()
     notepad = new Notepad(this);
     notepad->show();
 
+}
+void Home::on_paint_clicked()
+{
+
+}
+
+void Home::on_calculator_clicked()
+{
+    calculator = new Calculator(this);
+    calculator->show();
 }
