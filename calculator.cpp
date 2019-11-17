@@ -12,6 +12,7 @@ Calculator::Calculator(QWidget *parent) :
     ui(new Ui::Calculator)
 {
     ui->setupUi(this);
+    setWindowTitle(tr("Calculator Master"));
 
     ui->Display->setText(QString::number(calcValue));
     QPushButton *numButtons[10];

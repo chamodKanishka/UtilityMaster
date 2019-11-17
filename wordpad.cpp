@@ -17,6 +17,7 @@ WordPad::WordPad(QWidget *parent) :
     ui(new Ui::WordPad)
 {
     ui->setupUi(this);
+    setWindowTitle(tr("Wordpad Master"));
 }
 
 WordPad::~WordPad()

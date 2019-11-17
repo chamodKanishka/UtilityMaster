@@ -60,14 +60,14 @@ void Notepad::on_actionSave_As_triggered()
 
 void Notepad::on_actionPrint_triggered()
 {
-//    QPrinter printer;
-//    printer.setPrinterName("Print Name");
-//    QPrintDialog pDialog(&printer, this);
-//    if(pDialog.exec() == QDialog::Rejected){
-//        QMessageBox::warning(this, "Warning", "Cannot Access Printer");
-//        return;
-//    }
-//    ui->textEdit->print(&printer);
+    QPrinter printer;
+    printer.setPrinterName("Print Name");
+    QPrintDialog pDialog(&printer, this);
+    if(pDialog.exec() == QDialog::Rejected){
+        QMessageBox::warning(this, "Warning", "Cannot Access Printer");
+        return;
+    }
+    ui->textEdit->print(&printer);
 
 }
 

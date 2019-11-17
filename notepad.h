@@ -7,6 +7,8 @@
 #include <QFileDialog>
 #include <QTextStream>
 #include <QMessageBox>
+#include <QPrinter>
+#include <QPrintDialog>
 
 namespace Ui {
 class Notepad;

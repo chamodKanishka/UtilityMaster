@@ -6,6 +6,7 @@ MediaPlayer::MediaPlayer(QWidget *parent) :
     ui(new Ui::MediaPlayer)
 {
     ui->setupUi(this);
+    setWindowTitle(tr("Mediaplayer Master"));
 }
 
 MediaPlayer::~MediaPlayer()

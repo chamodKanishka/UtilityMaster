@@ -3,6 +3,10 @@
 
 #include <QMainWindow>
 
+#include <QFileDialog>
+#include <QProgressBar>
+#include <QSlider>
+
 namespace Ui {
 class MediaPlayer;
 }
