@@ -8,8 +8,8 @@
 #include <QFont>
 #include <QColorDialog>
 #include <QColor>
-//#include <QPrinter>
-//#include <QPrintDialog>
+#include <QPrinter>
+#include <QPrintDialog>
 #include <QCloseEvent>
 
 WordPad::WordPad(QWidget *parent) :
@@ -103,17 +103,17 @@ void WordPad::on_actionSave_as_triggered()
 //Print Document Function
 void WordPad::on_actionPrint_triggered()
 {
-//    QPrinter printer;
-//    printer.setPrinterName("Printer Name");
+    QPrinter printer;
+    printer.setPrinterName("Printer Name");
 
-//    QPrintDialog pDialog(&printer, this);
+    QPrintDialog pDialog(&printer, this);
 
-//    if(pDialog.exec() == QDialog::Rejected){
-//        QMessageBox::warning(this, "Warning", "Printer is not connected !");
-//        return;
-//    }
+    if(pDialog.exec() == QDialog::Rejected){
+        QMessageBox::warning(this, "Warning", "Printer is not connected !");
+        return;
+    }
 
-//    ui->textEdit->print(&printer);
+    ui->textEdit->print(&printer);
 }
 
 //Text Cut Function
