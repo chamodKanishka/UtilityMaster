@@ -7,6 +7,7 @@
 #include "wordpad.h"
 #include "calculator.h"
 #include "mediaplayer.h"
+#include <QMainWindow>
 
 namespace Ui {
 class Home;
@@ -23,21 +24,21 @@ public:
 private slots:
     void on_notepad_clicked();
 
-    void on_paint_clicked();
-
     void on_calculator_clicked();
 
     void on_wordpad_clicked();
 
     void on_mediaplayer_clicked();
 
+    void on_paint_clicked();
+
 private:
     Ui::Home *ui;
     Notepad *notepad;
-    Paint *paint();
     Calculator *calculator;
     WordPad *wordpad;
     MediaPlayer *mediaplayer;
+    Paint *paint;
 
 };
 

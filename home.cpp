@@ -8,6 +8,7 @@ Home::Home(QWidget *parent) :
 {
     ui->setupUi(this);
     setWindowTitle(tr("Utility Master"));
+    setStyleSheet("background-image: url(resources/images/Utilities.png);");
 }
 
 Home::~Home()
@@ -19,10 +20,6 @@ void Home::on_notepad_clicked()
 {
     notepad = new Notepad(this);
     notepad->show();
-
-}
-void Home::on_paint_clicked()
-{
 
 }
 
@@ -42,4 +39,11 @@ void Home::on_mediaplayer_clicked()
 {
     mediaplayer = new MediaPlayer(this);
     mediaplayer->show();
+}
+
+
+void Home::on_paint_clicked()
+{
+    paint = new Paint();
+    paint->show();
 }
