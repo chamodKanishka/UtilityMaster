@@ -31,7 +31,7 @@ SOURCES += \
         mediaplayer.cpp \
         notepad.cpp \
         paint.cpp \
-        scribblearea.cpp \
+        paintarea.cpp \
         wordpad.cpp
 
 HEADERS += \
@@ -40,7 +40,7 @@ HEADERS += \
         mediaplayer.h \
         notepad.h \
         paint.h \
-        scribblearea.h \
+        paintarea.h \
         wordpad.h
 
 FORMS += \

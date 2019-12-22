@@ -13,9 +13,6 @@
   <property name="windowTitle">
    <string>Home</string>
   </property>
-  <property name="autoFillBackground">
-   <bool>false</bool>
-  </property>
   <widget class="QWidget" name="centralWidget">
    <widget class="QPushButton" name="notepad">
     <property name="geometry">
