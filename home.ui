@@ -179,54 +179,87 @@ QPushButtonPressed{
      <string>Media Player Master</string>
     </property>
    </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>50</y>
+      <width>501</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="resources.qrc">:/images/Icons/Utilities.png</pixmap>
+    </property>
+   </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>70</x>
-      <y>130</y>
-      <width>91</width>
-      <height>91</height>
+      <x>-10</x>
+      <y>-70</y>
+      <width>791</width>
+      <height>591</height>
      </rect>
     </property>
     <property name="text">
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>:/img/img/texteditor_logo.png</pixmap>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_4">
-    <property name="geometry">
-     <rect>
-      <x>70</x>
-      <y>300</y>
-      <width>111</width>
-      <height>101</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap>:/img/img/cal_logo.png</pixmap>
+     <pixmap resource="resources.qrc">:/images/Icons/bg_os.jpg</pixmap>
     </property>
    </widget>
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>330</x>
-      <y>300</y>
-      <width>111</width>
-      <height>101</height>
+      <x>210</x>
+      <y>-30</y>
+      <width>191</width>
+      <height>131</height>
      </rect>
     </property>
-    <property name="text">
-     <string/>
+    <property name="font">
+     <font>
+      <family>URW Gothic L</family>
+      <pointsize>48</pointsize>
+      <italic>true</italic>
+     </font>
     </property>
-    <property name="pixmap">
-     <pixmap>:/img/img/vide)_logo.png</pixmap>
+    <property name="text">
+     <string>Utility</string>
     </property>
    </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>-40</y>
+      <width>221</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>URW Gothic L</family>
+      <pointsize>48</pointsize>
+      <italic>true</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string>Master</string>
+    </property>
+   </widget>
+   <zorder>label_2</zorder>
+   <zorder>label</zorder>
+   <zorder>notepad</zorder>
+   <zorder>wordpad</zorder>
+   <zorder>paint</zorder>
+   <zorder>calculator</zorder>
+   <zorder>mediaplayer</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_5</zorder>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
@@ -234,7 +267,7 @@ QPushButtonPressed{
      <x>0</x>
      <y>0</y>
      <width>772</width>
-     <height>20</height>
+     <height>22</height>
     </rect>
    </property>
   </widget>
@@ -249,6 +282,8 @@ QPushButtonPressed{
   <widget class="QStatusBar" name="statusBar"/>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
- <resources/>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
  <connections/>
 </ui>

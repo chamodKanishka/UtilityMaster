@@ -34,10 +34,10 @@ private slots:
 private:
     Ui::Home *ui;
     Notepad *notepad;
-    Paint *paint();
     Calculator *calculator;
     WordPad *wordpad;
     MediaPlayer *mediaplayer;
+    Paint *paint;
 
 };
 

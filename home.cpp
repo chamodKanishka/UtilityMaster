@@ -23,7 +23,8 @@ void Home::on_notepad_clicked()
 }
 void Home::on_paint_clicked()
 {
-
+   paint = new Paint();
+   paint->show();
 }
 
 void Home::on_calculator_clicked()
